@@ -56,5 +56,5 @@
 	Use the plate number to find the car in the list and set available to true (Make sure the GetItem method returns a
 	reference) 
 
-	At the end of each option's method (except Exit) make sure ot list the menu options again.
+	At the end of each option's method (except Exit) make sure to list the menu options again.
 	For Exit, quit the program.
