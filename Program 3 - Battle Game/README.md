@@ -9,7 +9,7 @@ Overview:
   Each character will have several moves, and you and the computer will take turns attacking each other. 
   A battle will end when either your character or your opponent's life gets down to 0.
 
-## Classes:
+# Classes:
 
  Game 
  ----------
