@@ -4,6 +4,8 @@ You have been hired by XYZ Car Rental to develop a software system for their bus
 
 Your program will have two unordered lists, one of Cars and one of Reservations
     
+Car
+---
 The Car class will have the following data: 
 string plateNumber (this is the key)
 string make 
@@ -13,16 +15,21 @@ double pricePerDay
 bool isAvailable isAvailable should be set to true on initialization,
 and a public setter method should be exposed SetAvailable(bool available); 
 
+Reservation
+-----------
 Reservation will have the following:
 string name (key) 
 string vehicleRented (plate of the car which is our key for the list)
-	
+
+Program
+-------
 The Program class will be composed of the two lists. There will also be a method to display a menu
 that will have the following options, Create a method to process the user's input and call appropriate methods to
 perform the operation requested. (Use a switch statement and call the appropriate methods based on the number
 the user puts in) 
 
-------------------------------------------- XYZ Car Rental -------------------------------------------
+XYZ Car Rental 
+------------------------------------------------------------------------------------------------------
 1. List all cars 
 2. Add car to inventory 
 3. Remove car from inventory 
